@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--This is the start of the HTML containing the meta info, title, etc-->
+  <head>
+    <title>Fahrenheit to Celsius Converter - Project number 4</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Fahrenheit to Celsius Converter">
+    <meta name="keywords" content="HTML, CSS, JavaScript, temperature converter">
+    <meta name="author" content="Robyn Estes">
+  </head>
+  <!--Now the fun parts. This all contains the image info and input and output text-->
+  <body>
+    <div id="container">
+      <div id="image-container">
+        <img src="https://img.freepik.com/free-icon/thermometer_318-560215.jpg?w=2000" alt="placeholder image" />
+      </div>
+      <div id="input-container">
+        <label class="temp" for="fahrenheit">Enter temperature in Fahrenheit:</label>
+        <input type="text" id="fahrenheit" />
+        <button onclick="convertTemp()">Convert</button>
+        <div class="error-message" id="error"></div>
+      </div>
+      <div id="result-container">
+        <div id="result"></div>
+      </div>
+    </div>
+  <!--This part is for the java script-->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!--Referances for the website(s) used in this project-->
+<!--https://www.w3schools.com/howto/howto_js_temperature_converter.asp <-- was used for the bones to get the site working-->
+<!--https://www.w3schools.com/css/default.asp -- <-- was used for the CSS styling-->

@@ -1,0 +1,69 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/3235824.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#image-container {
+  float: left;
+  margin-right: 20px;
+}
+#image-container img {
+  height: 300px;
+  width: 300px;
+}
+
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: yellow;
+  text-shadow: 1px 1px black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  width: 200px;
+  color: pink;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.error-message {
+  font-size: 1.2em;
+  color: red;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.temp{
+  margin-bottom: 15px;
+  color: lightblue;
+  text-shadow: 1px 1px black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
+}
